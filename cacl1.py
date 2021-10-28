@@ -29,7 +29,12 @@ class Token(object):
         )
 
     def __repr__(self):
-        return elf.__str__()
+        return self.__str__()
+
+
+
+
+######################################################################################
 
 class Interpreter(object):
     def __init__(self, text):
